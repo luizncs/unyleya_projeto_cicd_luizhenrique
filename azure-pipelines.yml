@@ -2,11 +2,11 @@
 # Build a Docker image
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
 
-pool:
-  name: Default
-
 trigger:
 - master
+
+pool:
+  name: Default
 
 resources:
 - repo: self
